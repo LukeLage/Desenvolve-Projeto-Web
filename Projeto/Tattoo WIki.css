@@ -1,73 +1,40 @@
-root{
-    --fundo_claro: rgb(244, 244, 244)
-    --fundo_escuro: 
+.estudio{
+    width: 35%;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 25px;
+    max-width: 350px;
 }
 
-body{
-    background-color: var(--fundo_claro)
+#estudio_content{
+    max-width: 90%;
+    border-radius: 25px;
 }
 
-#introducao{
-    display: flex;
-}
-
-.assinatura{
-    font-style: italic;
-    font-size: 11px;
-}
-
-footer{
-    background-color: rgb(61, 56, 56);
-    color: lightgray
-}
-
-#estudio{
-    float: left;    
-    width: 50%;
-    padding-left: 7px;
-    padding-right: 11px;
-    padding-top: 11px;
-    padding-bottom: 15px;
-    border: 5px;
-}
-
-.barra_nav{
-    border-radius: 9px;
-    border: 5px;
-    padding: 11px;
-    margin: 11px;
-}
-
-#texto_introducao{
+#introducao_content{
+    width: 60%;
     float: right;
-    width: 40%;
-    border: 5px;
-    padding: 5px;
+    text-align: justify;
+    border: 25px solid transparent;
 }
 
-#fineespada{
-    float: right;
-    width: 30%;
+.introducao{
+    margin-bottom: 25px;
+}
+
+.clear{
+    clear: both;
 }
 
 #fineline_content{
+    width: 60%;
     float: left;
-    width: 60%;
+    text-align: justify;
+    border: 25px solid transparent;
 }
 
-#bracoblackout{
+#fineline_img{
+    width: 20%;
     float: right;
-    width: 30%;
-}
-
-#blackout_content{
-    width: 60%;
-}
-
-#tribal_img{
-    width: 30%;
-}
-
-#tribal_content{
-    width: 60%;
+    margin-left: 10px;
 }
